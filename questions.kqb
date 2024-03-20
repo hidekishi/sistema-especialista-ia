@@ -59,7 +59,7 @@ challenging($ans)
     $ans = yn
 
 survival($ans)
-    Deseja lutar pela sua sobrevivência?
+    Quer coletar materiais e construir coisas?
     ---
     $ans = yn
 
