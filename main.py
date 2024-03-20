@@ -35,7 +35,7 @@ def bc():
 
 
 def main():
-    print("EXPERT SYSTEM")
+    print("Sistema Especialista para Recomendação de Jogos")
     bc()
 
 
