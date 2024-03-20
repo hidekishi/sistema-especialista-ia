@@ -1,4 +1,4 @@
-import sys
+from random import choice
 from pyke import knowledge_engine, krb_traceback
 
 engine = knowledge_engine.engine(__file__)
@@ -10,8 +10,17 @@ def bc_test():
 
     try:
         with engine.prove_goal("rules.what_to_play($game)") as gen:
-            for vars_, _ in gen:
-                print(f"Voce deveria jogar: {vars_['game']}")
+            vars_, _ = next(gen, (None, None))
+            if vars_ is not None:
+                game = vars_["game"]
+                print(f"Você deveria jogar: {vars_['game']}")
+            else:
+                joga_nada = [
+                    "Ah, não joga nada então",
+                    "Então vai ler um livro",
+                    "Vai dar uma volta na quadra",
+                ]
+                print(choice(joga_nada))
     except Exception as e:
         krb_traceback.print_exc()
         raise e
@@ -20,7 +29,6 @@ def bc_test():
 def main():
     print("EXPERT SYSTEM")
     bc_test()
-    print("DONE")
 
 
 if __name__ == "__main__":

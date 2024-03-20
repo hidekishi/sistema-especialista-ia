@@ -1,63 +1,95 @@
-historical($ans)
-    Gosta de temas históricos?
+violence($ans):
+    violence
     ---
     $ans = yn
 
-otaku($ans)
-    Gosta de temas de Anime e Mangá?
+action($ans):
+    action
     ---
     $ans = yn
 
-challenge($ans)
-    Gosta de jogos desafiadores?
+horror($ans):
+    horror
     ---
     $ans = yn
 
-notfree($ans)
-    Disposto a pagar para jogar?
+anime($ans):
+    anime
     ---
     $ans = yn
 
-competitive($ans)
-    Aguenta jogos competitivos?
+fps($ans):
+    fps
     ---
     $ans = yn
 
-multiplayer($ans)
-    Prefere jogar com outras pessoas?
+competitive($ans):
+    competitive
     ---
     $ans = yn
 
-violence($ans)
-    Tolera conteúdo demasiadamente violento?
+fighting($ans):
+    fighting
     ---
     $ans = yn
 
-horror($ans)
-    Lida bem com terror ou temas perturbadores?
+rpg($ans):
+    rpg
     ---
     $ans = yn
 
-relax ($ans)
-    Quer uma experiência relaxante?
+tactical($ans):
+    tactical
     ---
     $ans = yn
 
-shooting($ans)
-    Gosta de jogos de tiro?
+strategy($ans):
+    strategy
     ---
     $ans = yn
 
-survival($ans)
-    Gosta de jogos de sobrevivência?
+multiplayer($ans):
+    multiplayer
     ---
     $ans = yn
 
-platform($ans)
-    Qual plataforma preferida?
+challenging($ans):
+    challenging
     ---
-    $ans = select_1
-        1: PC
-        2: Console
-        3: Smartphone
-        4: VR
+    $ans = yn
+
+survival($ans):
+    survival
+    ---
+    $ans = yn
+
+cartoon($ans):
+    cartoon
+    ---
+    $ans = yn
+
+art($ans):
+    art
+    ---
+    $ans = yn
+
+social($ans):
+    social
+    ---
+    $ans = yn
+
+relax($ans):
+    relax
+    ---
+    $ans = yn
+
+logic($ans):
+    logic
+    ---
+    $ans = yn
+
+pao($ans):
+    pao
+    ---
+    $ans = yn
+
