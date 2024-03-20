@@ -4,87 +4,87 @@ violence($ans)
     $ans = yn
 
 action($ans)
-    on
+    action
     ---
     $ans = yn
 
 horror($ans)
-    or
+    horror
     ---
     $ans = yn
 
 anime($ans)
-    e
+    anime
     ---
     $ans = yn
 
 fps($ans)
-    s
+    fps
     ---
     $ans = yn
 
 competitive($ans)
-    etitive
+    competitive
     ---
     $ans = yn
 
 fighting($ans)
-    ting
+    fighting
     ---
     $ans = yn
 
 rpg($ans)
-    g
+    rpg
     ---
     $ans = yn
 
 tactical($ans)
-    ical
+    tactical
     ---
     $ans = yn
 
 strategy($ans)
-    tegy
+    strategy
     ---
     $ans = yn
 
 multiplayer($ans)
-    iplayer
+    multiplayer
     ---
     $ans = yn
 
 challenging($ans)
-    lenging
+    challenging
     ---
     $ans = yn
 
 survival($ans)
-    ival
+    survival
     ---
     $ans = yn
 
 cartoon($ans)
-    oon
+    cartoon
     ---
     $ans = yn
 
 art($ans)
-    t
+    art
     ---
     $ans = yn
 
 social($ans)
-    al
+    social
     ---
     $ans = yn
 
 relax($ans)
-    x
+    relax
     ---
     $ans = yn
 
 logic($ans)
-    c
+    logic
     ---
     $ans = yn
 
