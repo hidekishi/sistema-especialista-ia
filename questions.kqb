@@ -1,0 +1,63 @@
+historical($ans)
+    Gosta de temas históricos?
+    ---
+    $ans = yn
+
+otaku($ans)
+    Gosta de temas de Anime e Mangá?
+    ---
+    $ans = yn
+
+challenge($ans)
+    Gosta de jogos desafiadores?
+    ---
+    $ans = yn
+
+notfree($ans)
+    Disposto a pagar para jogar?
+    ---
+    $ans = yn
+
+competitive($ans)
+    Aguenta jogos competitivos?
+    ---
+    $ans = yn
+
+multiplayer($ans)
+    Prefere jogar com outras pessoas?
+    ---
+    $ans = yn
+
+violence($ans)
+    Tolera conteúdo demasiadamente violento?
+    ---
+    $ans = yn
+
+horror($ans)
+    Lida bem com terror ou temas perturbadores?
+    ---
+    $ans = yn
+
+relax ($ans)
+    Quer uma experiência relaxante?
+    ---
+    $ans = yn
+
+shooting($ans)
+    Gosta de jogos de tiro?
+    ---
+    $ans = yn
+
+survival($ans)
+    Gosta de jogos de sobrevivência?
+    ---
+    $ans = yn
+
+platform($ans)
+    Qual plataforma preferida?
+    ---
+    $ans = select_1
+        1: PC
+        2: Console
+        3: Smartphone
+        4: VR
