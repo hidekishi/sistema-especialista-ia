@@ -1,95 +1,90 @@
-violence($ans):
+violence($ans)
     violence
     ---
     $ans = yn
 
-action($ans):
-    action
+action($ans)
+    on
     ---
     $ans = yn
 
-horror($ans):
-    horror
+horror($ans)
+    or
     ---
     $ans = yn
 
-anime($ans):
-    anime
+anime($ans)
+    e
     ---
     $ans = yn
 
-fps($ans):
-    fps
+fps($ans)
+    s
     ---
     $ans = yn
 
-competitive($ans):
-    competitive
+competitive($ans)
+    etitive
     ---
     $ans = yn
 
-fighting($ans):
-    fighting
+fighting($ans)
+    ting
     ---
     $ans = yn
 
-rpg($ans):
-    rpg
+rpg($ans)
+    g
     ---
     $ans = yn
 
-tactical($ans):
-    tactical
+tactical($ans)
+    ical
     ---
     $ans = yn
 
-strategy($ans):
-    strategy
+strategy($ans)
+    tegy
     ---
     $ans = yn
 
-multiplayer($ans):
-    multiplayer
+multiplayer($ans)
+    iplayer
     ---
     $ans = yn
 
-challenging($ans):
-    challenging
+challenging($ans)
+    lenging
     ---
     $ans = yn
 
-survival($ans):
-    survival
+survival($ans)
+    ival
     ---
     $ans = yn
 
-cartoon($ans):
-    cartoon
+cartoon($ans)
+    oon
     ---
     $ans = yn
 
-art($ans):
-    art
+art($ans)
+    t
     ---
     $ans = yn
 
-social($ans):
-    social
+social($ans)
+    al
     ---
     $ans = yn
 
-relax($ans):
-    relax
+relax($ans)
+    x
     ---
     $ans = yn
 
-logic($ans):
-    logic
-    ---
-    $ans = yn
-
-pao($ans):
-    pao
+logic($ans)
+    c
     ---
     $ans = yn
 
