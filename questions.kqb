@@ -1,95 +1,95 @@
 violence($ans)
-    violence
+    Tolera violência explícita em jogos?
     ---
     $ans = yn
 
 action($ans)
-    action
+    Gosta de ação?
     ---
     $ans = yn
 
 horror($ans)
-    horror
+    Quer ficar com medo?
     ---
     $ans = yn
 
 anime($ans)
-    anime
+    Gosta da temática anime/mangá?
     ---
     $ans = yn
 
 fps($ans)
-    fps
+    Tem preferência por jogos de tiro em primeira pessoa (FPS)?
     ---
     $ans = yn
 
 competitive($ans)
-    competitive
+    Tem interesse em jogos competitivos?
     ---
     $ans = yn
 
 fighting($ans)
-    fighting
+    Gosta de jogos de luta?
     ---
     $ans = yn
 
 rpg($ans)
-    rpg
+    Quer um jogo em que você assume papéis e cria narrativas (RPG)?
     ---
     $ans = yn
 
 tactical($ans)
-    tactical
+    Gosta de pensar de forma tática?
     ---
     $ans = yn
 
 strategy($ans)
-    strategy
+    Tem veia de estrategista?
     ---
     $ans = yn
 
 multiplayer($ans)
-    multiplayer
+    Gosta de jogar com/contra outros jogadores?
     ---
     $ans = yn
 
 challenging($ans)
-    challenging
+    Quer um desafio?
     ---
     $ans = yn
 
 survival($ans)
-    survival
+    Deseja lutar pela sua sobrevivência?
     ---
     $ans = yn
 
 cartoon($ans)
-    cartoon
+    Deseja gráficos cartunizados?
     ---
     $ans = yn
 
 art($ans)
-    art
+    Gosta de desenhar?
     ---
     $ans = yn
 
 social($ans)
-    social
+    Quer interagir socialmente (com NPCs)?
     ---
     $ans = yn
 
 relax($ans)
-    relax
+    Precisa relaxar?
     ---
     $ans = yn
 
 logic($ans)
-    logic
+    Quer botar o cérebro pra trabalhar?
     ---
     $ans = yn
 
 pao($ans)
-    pao
+    Pão?
     ---
     $ans = yn
 
