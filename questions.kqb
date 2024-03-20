@@ -88,3 +88,8 @@ logic($ans)
     ---
     $ans = yn
 
+pao($ans)
+    pao
+    ---
+    $ans = yn
+
